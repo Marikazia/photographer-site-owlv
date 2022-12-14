@@ -5,9 +5,16 @@ import Nav from './Nav'
 const Header = () => {
 	return (
 		<div className={styles.header}>
-			<a href='/'>
-				<img src="/" alt="" />
-			</a>
+			<div className="">
+				<a href='/'>
+					<img
+						src="/"
+						alt="OwlV"
+						height=''
+						width=''
+					/>
+				</a>
+			</div>
 			<Nav />
 		</div>
 	)
