@@ -1,34 +1,25 @@
 import React from "react"
 
-export const Nav = () => {
-	getLiState(){
-		return {
-			items: [
-				{ id: 1, name: "/" },
-				{ id: 2, name: "/" },
-				{ id: 3, name: "/" },
-				{ id: 4, name: "/" },
-			]
-		}
-	}
-	navLi(){
-		return (
-			<div className="nav-top">
-				<ul>
-					{this.state.items.map(() =>
-						<li className="nav-name" key={item.name}>
-							{item.name}
-						</li>
-					)}
-				</ul>
-			</div>
-		)
-	}
-	render(){
-		return (
-			<navLi />
-		)
-	}
+const Nav = () => {
+	const navs = [
+		{ id: 1, name: "/" },
+		{ id: 2, name: "/" },
+		{ id: 3, name: "/" },
+		{ id: 4, name: "/" },
+	];
+
+	return (
+		<div className="nav-top">
+			<ul>
+				{this.state.navs.map(() =>
+					<li className="nav-name" key={navs.name}>
+						{navs.name}
+					</li>
+				)}
+			</ul>
+		</div>
+	)
+
 }
 
-ReactDOM.render(<Nav />, document.getElementById('app'));
+export default Nav;
