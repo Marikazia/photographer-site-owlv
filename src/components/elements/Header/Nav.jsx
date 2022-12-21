@@ -2,11 +2,11 @@ import React from "react"
 
 const Nav = () => {
 	const navs = [
-		{ id: 1, name: "Home" },
-		{ id: 2, name: "About me" },
-		{ id: 3, name: "Shop" },
-		{ id: 4, name: "Blog" },
-		{ id: 5, name: "Contacts" }
+		{ id: 1, name: "Home", href: "/home" },
+		{ id: 2, name: "About me", href: "/about" },
+		{ id: 3, name: "Shop", href: "/shop" },
+		{ id: 4, name: "Blog", href: "/blog" },
+		{ id: 5, name: "Contacts", href: "/contacts" }
 	];
 
 	return (
