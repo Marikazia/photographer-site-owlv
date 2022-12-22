@@ -1,6 +1,6 @@
 import React from "react"
 
-const Nav = (props) => {
+const Nav = () => {
 	const items = [
 		{ id: 1, name: "Home", href: "/home" },
 		{ id: 2, name: "About me", href: "/about" },
