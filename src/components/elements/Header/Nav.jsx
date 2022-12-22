@@ -1,7 +1,7 @@
 import React from "react"
 
-const Nav = () => {
-	const navs = [
+const Nav = (props) => {
+	const items = [
 		{ id: 1, name: "Home", href: "/home" },
 		{ id: 2, name: "About me", href: "/about" },
 		{ id: 3, name: "Shop", href: "/shop" },
@@ -13,9 +13,9 @@ const Nav = () => {
 		<>
 			<div className="nav-top">
 				<ul>
-					{navs.map(() =>
-						<li className="nav-name" key={navs.name}>
-							{navs.name}
+					{items.map((item) =>
+						<li className="nav-name" key={item.name}>
+							{item.name}
 						</li>
 					)}
 				</ul>
