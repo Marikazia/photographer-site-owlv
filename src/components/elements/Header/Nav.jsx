@@ -13,7 +13,7 @@ const Nav = () => {
 	return (
 		<>
 			<div className="nav-top">
-				<ul>
+				<ul className="nav-top-ul">
 					{items.map((item) =>
 						<li className="nav-name" key={item.name} >
 							<Link to={item.link}>
