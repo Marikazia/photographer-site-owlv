@@ -33,6 +33,10 @@ ol, ul {
   list-style: none;
 }
 
+link, a {
+  text-decoration: none;
+}
+
 blockquote, q {
   quotes: none;
 }
@@ -65,6 +69,15 @@ table {
   align-items: center;
 }
 
+.nav-top-ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-name {
+  color: #eeeeee;
+}
+
 body {
-  background: #000;
+  background: #eeeeee;
 }
