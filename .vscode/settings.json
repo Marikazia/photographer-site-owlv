@@ -10,9 +10,6 @@
 			"format": "expanded",
 			"extension": ".css"
 		},
-		{
-			"format": "compressed",
-			"extension": ".min.css"
-		}
+
 	]
 }
