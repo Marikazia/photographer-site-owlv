@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -52,32 +52,6 @@ table {
   border-spacing: 0;
 }
 
-.header {
-  padding: 20px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header > div:first-child {
-  display: flex;
-  align-items: center;
-}
-
-.header > div:first-child > a {
-  display: flex;
-  align-items: center;
-}
-
-.nav-top-ul {
-  display: flex;
-  flex-direction: row;
-}
-
-.nav-name {
-  color: #eeeeee;
-}
-
 body {
-  background: #eeeeee;
-}
+  background: #0e0809;
+}/*# sourceMappingURL=index.css.map */
