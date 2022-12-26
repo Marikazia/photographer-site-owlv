@@ -3,5 +3,16 @@
 	"debug.console.fontSize": 12,
 	"markdown.preview.fontSize": 12,
 	"terminal.integrated.fontSize": 12,
-	"compile-hero.disable-compile-files-on-did-save-code": true
+	"compile-hero.disable-compile-files-on-did-save-code": true,
+	"easysass.formats": [
+
+		{
+			"format": "expanded",
+			"extension": ".css"
+		},
+		{
+			"format": "compressed",
+			"extension": ".min.css"
+		}
+	]
 }
