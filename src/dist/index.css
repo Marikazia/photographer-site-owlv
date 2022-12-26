@@ -52,6 +52,38 @@ table {
   border-spacing: 0;
 }
 
+.header {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > div:first-child {
+  display: flex;
+  align-items: center;
+}
+.header > div:first-child > a {
+  display: flex;
+  align-items: center;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: row;
+}
+.nav-top-ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-name {
+  color: #d0d0d0;
+}
+
+a:-webkit-any-link {
+  color: #d0d0d0;
+}
+
 body {
   background: #0e0809;
 }
