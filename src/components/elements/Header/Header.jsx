@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Header.module.sass'
+import styles from '../styles/Header.module.sass'
 import Nav from './Nav'
 
 const Header = () => {
